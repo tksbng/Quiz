@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ResultViewController.h
 //  Quiz
 //
 //  Created by Takeshi Bingo on 2013/07/27.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "Chime.h"
 
-@interface ViewController : UIViewController
+@interface ResultViewController : UIViewController
+
+@property int correctPercentage;
 
 @end

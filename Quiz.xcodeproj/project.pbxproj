@@ -23,6 +23,23 @@
 		FF51758717A352BF00CF982D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF51756217A352BF00CF982D /* Foundation.framework */; };
 		FF51758F17A352BF00CF982D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF51758D17A352BF00CF982D /* InfoPlist.strings */; };
 		FF51759217A352BF00CF982D /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF51759117A352BF00CF982D /* QuizTests.m */; };
+		FF5175A317A3533B00CF982D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51759B17A3533A00CF982D /* back.png */; };
+		FF5175A417A3533B00CF982D /* false.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51759C17A3533A00CF982D /* false.png */; };
+		FF5175A517A3533B00CF982D /* god.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51759D17A3533B00CF982D /* god.png */; };
+		FF5175A617A3533B00CF982D /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51759E17A3533B00CF982D /* human.png */; };
+		FF5175A717A3533B00CF982D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51759F17A3533B00CF982D /* icon.png */; };
+		FF5175A817A3533B00CF982D /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5175A017A3533B00CF982D /* monkey.png */; };
+		FF5175A917A3533B00CF982D /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5175A117A3533B00CF982D /* start.png */; };
+		FF5175AA17A3533B00CF982D /* true.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5175A217A3533B00CF982D /* true.png */; };
+		FF5175AC17A353B300CF982D /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = FF5175AB17A353B300CF982D /* quiz.csv */; };
+		FF5175AE17A3549900CF982D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5175AD17A3549900CF982D /* icon.png */; };
+		FF5175B117A3615B00CF982D /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5175B017A3615B00CF982D /* QuizViewController.m */; };
+		FF5175B417A3618D00CF982D /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5175B317A3618D00CF982D /* ResultViewController.m */; };
+		FF5175B717A3672400CF982D /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5175B617A3672400CF982D /* Problem.m */; };
+		FFDD2B2117A4AB1A0072C7AD /* Chime.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD2B2017A4AB1A0072C7AD /* Chime.m */; };
+		FFDD2B2317A4AB580072C7AD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD2B2217A4AB580072C7AD /* AudioToolbox.framework */; };
+		FFDD2B2617A4AEFA0072C7AD /* se_maoudamashii_chime13.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFDD2B2417A4AEFA0072C7AD /* se_maoudamashii_chime13.wav */; };
+		FFDD2B2717A4AEFA0072C7AD /* se_maoudamashii_onepoint33.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFDD2B2517A4AEFA0072C7AD /* se_maoudamashii_onepoint33.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +75,27 @@
 		FF51758E17A352BF00CF982D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF51759017A352BF00CF982D /* QuizTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizTests.h; sourceTree = "<group>"; };
 		FF51759117A352BF00CF982D /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		FF51759B17A3533A00CF982D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = "../../Google ドライブ/RainbowApp/Quiz/back.png"; sourceTree = "<group>"; };
+		FF51759C17A3533A00CF982D /* false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = false.png; path = "../../Google ドライブ/RainbowApp/Quiz/false.png"; sourceTree = "<group>"; };
+		FF51759D17A3533B00CF982D /* god.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = god.png; path = "../../Google ドライブ/RainbowApp/Quiz/god.png"; sourceTree = "<group>"; };
+		FF51759E17A3533B00CF982D /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = human.png; path = "../../Google ドライブ/RainbowApp/Quiz/human.png"; sourceTree = "<group>"; };
+		FF51759F17A3533B00CF982D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../Google ドライブ/RainbowApp/Quiz/icon.png"; sourceTree = "<group>"; };
+		FF5175A017A3533B00CF982D /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey.png; path = "../../Google ドライブ/RainbowApp/Quiz/monkey.png"; sourceTree = "<group>"; };
+		FF5175A117A3533B00CF982D /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = "../../Google ドライブ/RainbowApp/Quiz/start.png"; sourceTree = "<group>"; };
+		FF5175A217A3533B00CF982D /* true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = true.png; path = "../../Google ドライブ/RainbowApp/Quiz/true.png"; sourceTree = "<group>"; };
+		FF5175AB17A353B300CF982D /* quiz.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = quiz.csv; path = "../../Google ドライブ/RainbowApp/Quiz/quiz.csv"; sourceTree = "<group>"; };
+		FF5175AD17A3549900CF982D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF5175AF17A3615B00CF982D /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		FF5175B017A3615B00CF982D /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		FF5175B217A3618D00CF982D /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		FF5175B317A3618D00CF982D /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		FF5175B517A3672400CF982D /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem.h; sourceTree = "<group>"; };
+		FF5175B617A3672400CF982D /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem.m; sourceTree = "<group>"; };
+		FFDD2B1F17A4AB1A0072C7AD /* Chime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chime.h; sourceTree = "<group>"; };
+		FFDD2B2017A4AB1A0072C7AD /* Chime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chime.m; sourceTree = "<group>"; };
+		FFDD2B2217A4AB580072C7AD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FFDD2B2417A4AEFA0072C7AD /* se_maoudamashii_chime13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_chime13.wav; sourceTree = "<group>"; };
+		FFDD2B2517A4AEFA0072C7AD /* se_maoudamashii_onepoint33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_onepoint33.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDD2B2317A4AB580072C7AD /* AudioToolbox.framework in Frameworks */,
 				FF51756117A352BF00CF982D /* UIKit.framework in Frameworks */,
 				FF51756317A352BF00CF982D /* Foundation.framework in Frameworks */,
 				FF51756517A352BF00CF982D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +126,24 @@
 		FF51755417A352BF00CF982D = {
 			isa = PBXGroup;
 			children = (
+				FFDD2B2417A4AEFA0072C7AD /* se_maoudamashii_chime13.wav */,
+				FFDD2B2517A4AEFA0072C7AD /* se_maoudamashii_onepoint33.wav */,
+				FF5175AF17A3615B00CF982D /* QuizViewController.h */,
+				FF5175B017A3615B00CF982D /* QuizViewController.m */,
+				FF5175B217A3618D00CF982D /* ResultViewController.h */,
+				FF5175B317A3618D00CF982D /* ResultViewController.m */,
+				FF5175AD17A3549900CF982D /* icon.png */,
+				FF5175AB17A353B300CF982D /* quiz.csv */,
+				FF5175B517A3672400CF982D /* Problem.h */,
+				FF5175B617A3672400CF982D /* Problem.m */,
+				FF51759B17A3533A00CF982D /* back.png */,
+				FF51759C17A3533A00CF982D /* false.png */,
+				FF51759D17A3533B00CF982D /* god.png */,
+				FF51759E17A3533B00CF982D /* human.png */,
+				FF51759F17A3533B00CF982D /* icon.png */,
+				FF5175A017A3533B00CF982D /* monkey.png */,
+				FF5175A117A3533B00CF982D /* start.png */,
+				FF5175A217A3533B00CF982D /* true.png */,
 				FF51756617A352BF00CF982D /* Quiz */,
 				FF51758A17A352BF00CF982D /* QuizTests */,
 				FF51755F17A352BF00CF982D /* Frameworks */,
@@ -106,6 +163,7 @@
 		FF51755F17A352BF00CF982D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFDD2B2217A4AB580072C7AD /* AudioToolbox.framework */,
 				FF51756017A352BF00CF982D /* UIKit.framework */,
 				FF51756217A352BF00CF982D /* Foundation.framework */,
 				FF51756417A352BF00CF982D /* CoreGraphics.framework */,
@@ -123,6 +181,8 @@
 				FF51757B17A352BF00CF982D /* ViewController.h */,
 				FF51757C17A352BF00CF982D /* ViewController.m */,
 				FF51756717A352BF00CF982D /* Supporting Files */,
+				FFDD2B1F17A4AB1A0072C7AD /* Chime.h */,
+				FFDD2B2017A4AB1A0072C7AD /* Chime.m */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -236,6 +296,18 @@
 				FF51757517A352BF00CF982D /* Default@2x.png in Resources */,
 				FF51757717A352BF00CF982D /* Default-568h@2x.png in Resources */,
 				FF51757A17A352BF00CF982D /* MainStoryboard.storyboard in Resources */,
+				FF5175A317A3533B00CF982D /* back.png in Resources */,
+				FF5175A417A3533B00CF982D /* false.png in Resources */,
+				FF5175A517A3533B00CF982D /* god.png in Resources */,
+				FF5175A617A3533B00CF982D /* human.png in Resources */,
+				FF5175A717A3533B00CF982D /* icon.png in Resources */,
+				FF5175A817A3533B00CF982D /* monkey.png in Resources */,
+				FF5175A917A3533B00CF982D /* start.png in Resources */,
+				FF5175AA17A3533B00CF982D /* true.png in Resources */,
+				FF5175AC17A353B300CF982D /* quiz.csv in Resources */,
+				FF5175AE17A3549900CF982D /* icon.png in Resources */,
+				FFDD2B2617A4AEFA0072C7AD /* se_maoudamashii_chime13.wav in Resources */,
+				FFDD2B2717A4AEFA0072C7AD /* se_maoudamashii_onepoint33.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +345,10 @@
 				FF51756D17A352BF00CF982D /* main.m in Sources */,
 				FF51757117A352BF00CF982D /* AppDelegate.m in Sources */,
 				FF51757D17A352BF00CF982D /* ViewController.m in Sources */,
+				FF5175B117A3615B00CF982D /* QuizViewController.m in Sources */,
+				FF5175B417A3618D00CF982D /* ResultViewController.m in Sources */,
+				FF5175B717A3672400CF982D /* Problem.m in Sources */,
+				FFDD2B2117A4AB1A0072C7AD /* Chime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +529,7 @@
 				FF51759717A352BF00CF982D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF51759817A352BF00CF982D /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +538,7 @@
 				FF51759A17A352BF00CF982D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
